@@ -11,7 +11,7 @@ spec:
       openshift.io/imported-from: quay.io/sonal_23/jupyterhub-img
     from:
       kind: DockerImage
-      name: quay.io/sonal_23/jupyterhub-img:v2
+      name: quay.io/sonal_23/jupyterhub-img:v3
     name: latest
     referencePolicy:
       type: Source
