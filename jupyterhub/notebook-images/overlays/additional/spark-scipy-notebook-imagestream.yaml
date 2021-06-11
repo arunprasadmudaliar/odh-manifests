@@ -10,6 +10,7 @@ spec:
   tags:
   - annotations:
       openshift.io/imported-from: quay.io/odh-jupyterhub/s2i-spark-scipy-notebook
+      opendatahub.io/notebook-image-name: "Spark scipy Notebook"
     from:
       kind: DockerImage
       name: quay.io/odh-jupyterhub/s2i-spark-scipy-notebook:3.6
