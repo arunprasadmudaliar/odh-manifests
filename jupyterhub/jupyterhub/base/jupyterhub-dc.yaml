@@ -86,7 +86,7 @@ spec:
             secretKeyRef:
               name: $(jupyterhub_secret)
               key: CONFIGPROXY_AUTH_TOKEN
-        image: img-registry-openshift-image-registry.apps.ai.innerdata.ml/k-arun-project/jupyterhub-img:latest
+        image: img-registry-openshift-image-registry.apps.ai.innerdata.ml/k-arun-project/jupyterhub-img
         name: jupyterhub
         ports:
         - containerPort: 8080
