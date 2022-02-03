@@ -25,5 +25,5 @@ commonLabels:
 
 images:
   - name: spark-cluster-image
-    newName: quay.io/opendatahub/spark-cluster-image
-    newTag: 2.4.3-h2.7
+    newName: image-registry.openshift-image-registry.svc:5000/arun-odh/spark-cluster-image
+    newTag: 3.2.1
