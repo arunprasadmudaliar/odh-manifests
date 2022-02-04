@@ -71,6 +71,7 @@ spec:
             successThreshold: 1
             timeoutSeconds: 5
       restartPolicy: Always
+      nodeName: ip-10-0-138-144.us-east-2.compute.internal
       volumes:
         - name: thriftserver-hdfs-hive
           secret:
