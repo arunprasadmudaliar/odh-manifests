@@ -96,3 +96,4 @@ spec:
             claimName: thriftserver-db
       restartPolicy: Always
       dnsPolicy: ClusterFirst
+      nodeName: ip-10-0-138-144.us-east-2.compute.internal
