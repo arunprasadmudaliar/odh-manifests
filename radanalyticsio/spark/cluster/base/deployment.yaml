@@ -20,7 +20,7 @@ spec:
       - name: spark-operator
         image: image-registry.openshift-image-registry.svc:5000/arun-odh/spark-operator:id-1.1.0
         env:
-        - name: arun-odh # if not specified all the namespaces will be watched; ~ denotes the same ns as the operator's
+        - name: WATCH_NAMESPACE # if not specified all the namespaces will be watched; ~ denotes the same ns as the operator's
           value: "~"
         #- name: CRD # if false, the operator will watch on ConfigMaps
         #  value: "true"
