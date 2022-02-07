@@ -2,5 +2,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
 - serviceaccount.yaml
-- rbac.yaml
+- role.yaml
+- rolebinding1.yaml
+- rolebinding2.yaml
 - deployment.yaml
