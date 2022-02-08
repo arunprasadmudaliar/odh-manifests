@@ -57,6 +57,7 @@ spec:
             periodSeconds: 30
             failureThreshold: 5
       restartPolicy: Always
+      nodeName: ip-10-0-161-47.us-east-2.compute.internal
       volumes:
         - name: hue-ini
           secret:
