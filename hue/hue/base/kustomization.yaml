@@ -99,6 +99,9 @@ images:
   - name: hue
     newName: gethue/hue
     newTag: "latest"
+  - name: hue-init
+    newName: quay.io/opendatahub/hue
+    newTag: "4.8.0"
   - name: mysql
     newName: registry.redhat.io/rhel8/mariadb-103
     newTag: latest
