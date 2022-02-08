@@ -86,6 +86,7 @@ spec:
               mountPath: "/var/lib/pgsql/data"
           terminationMessagePath: "/dev/termination-log"
           imagePullPolicy: IfNotPresent
+          nodeName: ip-10-0-161-47.us-east-2.compute.internal
           capabilities: {}
           securityContext:
             capabilities: {}
