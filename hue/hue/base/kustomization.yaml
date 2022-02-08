@@ -97,8 +97,8 @@ configurations:
 
 images:
   - name: hue
-    newName: quay.io/opendatahub/hue
-    newTag: "4.8.0"
+    newName: gethue/hue
+    newTag: "latest"
   - name: mysql
     newName: registry.redhat.io/rhel8/mariadb-103
     newTag: latest
