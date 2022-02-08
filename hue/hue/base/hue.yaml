@@ -48,11 +48,11 @@ spec:
             - name: hive-site-xml
               mountPath: /etc/hive/conf/
           ports:
-            - containerPort: 8000
+            - containerPort: 8888
           livenessProbe:
             httpGet:
               path: /desktop/debug/is_alive
-              port: 8000
+              port: 8888
             initialDelaySeconds: 3
             periodSeconds: 30
             failureThreshold: 5
