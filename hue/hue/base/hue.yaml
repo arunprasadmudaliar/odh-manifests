@@ -14,7 +14,7 @@ spec:
     spec:
       initContainers:
         - name: db-init
-          image: hue
+          image: hue-init
           args: ["migrate"]
           imagePullPolicy: Always
           volumeMounts:
