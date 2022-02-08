@@ -42,3 +42,4 @@ spec:
             memory: "512Mi"
             cpu: "1000m"
         imagePullPolicy: Always
+        nodeName: ip-10-0-161-47.us-east-2.compute.internal
