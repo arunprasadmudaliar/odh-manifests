@@ -22,7 +22,7 @@ spec:
               mountPath: /opt/hue/desktop/conf/
       containers:
         - name: hue
-          image: hue
+          image: hue-init
           imagePullPolicy: Always
           resources:
             requests:
@@ -48,11 +48,11 @@ spec:
             - name: hive-site-xml
               mountPath: /etc/hive/conf/
           ports:
-            - containerPort: 8888
+            - containerPort: 8000
           livenessProbe:
             httpGet:
               path: /desktop/debug/is_alive
-              port: 8888
+              port: 8000
             initialDelaySeconds: 3
             periodSeconds: 30
             failureThreshold: 5
