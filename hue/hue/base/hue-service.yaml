@@ -8,6 +8,6 @@ spec:
     deployment: hue
   ports:
     - name: 8000-tcp
-      port: 8888
+      port: 8000
       protocol: TCP
-      targetPort: 8888
+      targetPort: 8000
