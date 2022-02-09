@@ -5,7 +5,7 @@ metadata:
   name: hue
 spec:
   port:
-    targetPort: 8000-tcp
+    targetPort: 8888-tcp
   tls:
     termination: edge
   to:
