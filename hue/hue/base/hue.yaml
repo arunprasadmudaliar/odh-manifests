@@ -22,7 +22,7 @@ spec:
               mountPath: /opt/hue/desktop/conf/
       containers:
         - name: hue
-          image: hue
+          image: hue-init
           imagePullPolicy: Always
           resources:
             requests:
