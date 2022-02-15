@@ -97,11 +97,11 @@ configurations:
 
 images:
   - name: hue
-    newName: gethue/hue
-    newTag: "latest"
+    newName: image-registry.openshift-image-registry.svc:5000/arun-odh/spark-cluster-image
+    newTag: "4.10"
   - name: hue-init
-    newName: quay.io/opendatahub/hue
-    newTag: "4.8.0"
+    newName: image-registry.openshift-image-registry.svc:5000/arun-odh/spark-cluster-image
+    newTag: "4.10"
   - name: mysql
     newName: registry.redhat.io/rhel8/mariadb-103
     newTag: latest
