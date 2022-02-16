@@ -93,7 +93,7 @@ configurations:
 images:
   - name: spark-cluster-image
     newName: image-registry.openshift-image-registry.svc:5000/arun-odh/sts
-    newTag: 2.4.3-h2.7
+    newTag: 2.4.3-h2.7-v1
   - name: postgresql
     newName: registry.redhat.io/rhel8/postgresql-12
     newTag: latest
